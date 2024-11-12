@@ -78,6 +78,8 @@ php artisan filament:install --panels
 ./vendor/bin/sail php artisan make:filament-user
 ```
 
+E para acessar o painel é http://localhost/admin
+
 ### Passo 10: Permissão para a pasta storage
 Entre no shell como root e ajuste as permissões da pasta storage:
 
