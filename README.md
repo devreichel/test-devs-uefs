@@ -97,4 +97,11 @@ Para acessar o shell do Docker:
 ```bash
 ./vendor/bin/sail shell
 ./vendor/bin/sail down
+```
+
+
+### Rodar os testes
+
 ```bash
+./vendor/bin/sail artisan test
+```

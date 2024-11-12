@@ -86,7 +86,7 @@ class PostController extends Controller
         $post->tags()->detach();  // Desassociar as tags do post antes de excluir
         $post->delete();
 
-        return response()->json(['message' => 'Post deleted successfully']);
+        return response()->noContent(); 
     }
 
     // Excluir uma tag de todos os posts associados

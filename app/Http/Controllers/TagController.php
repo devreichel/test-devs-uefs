@@ -76,6 +76,6 @@ class TagController extends Controller
         // Excluir a tag
         $tag->delete();
 
-        return response()->json(['message' => 'Tag deletada com sucesso']);
+        return response()->noContent(); 
     }
 }
