@@ -100,6 +100,8 @@ Para acessar o shell do Docker:
 ./vendor/bin/sail shell
 ./vendor/bin/sail down
 ```
+### Testar Endpoints pelo Postman
+Importar o arquivo "UEFS-API-Collection.json" para o postman
 
 
 ### Rodar os testes
